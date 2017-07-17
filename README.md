@@ -22,3 +22,17 @@ g++ test.c -o out I"path/to/include" -L"path/to/lib" -lgsl -lgslcblas -lm
 ```
 
 NOTE: The include and lib in this repository are just for i386.
+
+## Setup Dev-C++
+1. Choose Tools>Compiler Options>Directories, then add the include and libraries path for gsl.
+
+2. Choose Tools>Compiler Options>General, add the following commands when calling the linker
+```
+-lgsl -lgslcblas -lm
+```
+
+3. Compile and build a C/C++ program, say [lm.cpp](https://github.com/szcf-weiya/gsl_lm)
+
+The results are as follows:
+
+![](result.png)
