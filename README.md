@@ -3,7 +3,7 @@ GSL for windows.
 
 ## Steps
 
-1. Download [MinGW](https://www.mingw.org) and install.
+1. Download [MinGW](http://www.mingw.org) and install.
 2. In MinGW Installation Manager, choose all packages in basic setup and install.
 3. In cmd, type 'msys.bat MSYS' to open a unix-like terminal.
 4. Download [gsl](ftp://ftp.gnu.org/gnu/gsl/) to the file folder of MSYS.
