@@ -1,5 +1,5 @@
 # GSLwin
-GSL for windows (just for i386).
+GSL for windows.
 
 ## Steps
 
@@ -24,6 +24,9 @@ g++ test.c -o out I"path/to/include" -L"path/to/lib" -lgsl -lgslcblas -lm
 **NOTE: The include and lib in this repository are just for i386.**
 
 ## Setup Dev-C++
+
+1. Choose Tools>Compiler Options, select one 32-bit compiler to configure, say `TDM-GCC 4.8.1 32-bit Release`. DO NOT use 64-bit!
+
 1. Choose Tools>Compiler Options>Directories, then add the include and libraries path for gsl.
 
 2. Choose Tools>Compiler Options>General, add the following commands when calling the linker
