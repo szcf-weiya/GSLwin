@@ -1,5 +1,5 @@
 # GSLwin
-GSL for windows.
+GSL for windows (just for i386).
 
 ## Steps
 
@@ -21,7 +21,7 @@ make install
 g++ test.c -o out I"path/to/include" -L"path/to/lib" -lgsl -lgslcblas -lm
 ```
 
-NOTE: The include and lib in this repository are just for i386.
+**NOTE: The include and lib in this repository are just for i386.**
 
 ## Setup Dev-C++
 1. Choose Tools>Compiler Options>Directories, then add the include and libraries path for gsl.
