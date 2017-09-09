@@ -18,7 +18,7 @@ cd gsl-2.4
 make
 make install
 ```
-When I run ./configure, there is a warning, "WARNING: cache variable lt_cv_path_LD contains a newline". As a result, I fail to run `make`. There is a solution [libtool](http://lists.gnu.org/archive/html/libtool/2009-05/msg00034.html). However, after I fix this bug, one more bug about libtool. And there are also [mail lists](https://lists.gnu.org/archive/html/libtool/2014-09/msg00005.html) talking about. But I failed to find a solution. I guess these bugs might be incompatible program. Because I choose the latest version when I install mingw_w64, while msys or gsl might not be updated. Then I adopt the mingw32 and mingw64 in Rtools. It works well.
+When I run ./configure, there is a warning, "WARNING: cache variable lt_cv_path_LD contains a newline". As a result, I fail to run `make`. There is a solution [libtool](http://lists.gnu.org/archive/html/libtool/2009-05/msg00034.html). However, after I fix this bug, one more bug about libtool. And there are also [mail lists](https://lists.gnu.org/archive/html/libtool/2014-09/msg00005.html) talking about. But I failed to find a solution. I guess these bugs might be incompatible program. Because I choose the latest version when I install mingw_w64, while msys or gsl might not be updated. Then I adopt the mingw32 and mingw64 in Rtools. It need more time to test.
 
 
 
