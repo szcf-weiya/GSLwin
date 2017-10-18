@@ -3,7 +3,7 @@ GSL for windows.
 
 ## Update on 2017.09.08
 
-Actually, we can compile lib and include for x64. Msys and mingw are two essential compenents. But this time I install msys and mingw respectively, while I installed the complex suite, which just for i386.
+Actually, we can compile lib and include for x64. Msys and mingw are two essential compenents. But this time I installed msys and mingw respectively, while I have installed the complex suite, which just for i386.
 
 1. Download [MSYS-20111123.zip](https://phoenixnap.dl.sourceforge.net/project/mingw-w64/External%20binary%20packages%20%28Win64%20hosted%29/MSYS%20%2832-bit%29/MSYS-20111123.zip)
  and unzip.
